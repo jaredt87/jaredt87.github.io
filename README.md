@@ -2,8 +2,9 @@
 
 Personal portfolio for my work across systems engineering, cloud infrastructure, automation, and safer autonomous systems.
 
-**Website:** https://jaredt87.github.io  
-**Résumé:** https://github.com/jaredt87/resume  
+**Website:** [jaredt87.github.io](https://jaredt87.github.io)  
+**Formatted résumé:** [jaredt87.github.io/resume.html](https://jaredt87.github.io/resume.html)  
+**Résumé source:** [github.com/jaredt87/resume](https://github.com/jaredt87/resume)  
 **LinkedIn:** https://www.linkedin.com/in/jaredthomson1987/
 
 ## Featured work

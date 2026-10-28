@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Jared Thomson's résumé — systems engineering, cloud infrastructure, platform automation, and systems architecture.">
+  <title>Résumé — Jared Thomson</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="wordmark" href="index.html"><span class="wordmark-mark">JT</span><span>Jared Thomson</span></a>
+      <nav aria-label="Main navigation"><a href="index.html#work">Selected work</a><a href="index.html#approach">Approach</a><a href="index.html#about">About</a></nav>
+      <a class="header-link" href="mailto:jaredt37@gmail.com">Get in touch <span aria-hidden="true">↗</span></a>
+    </header>
+    <main class="resume-page">
+      <div class="resume-top">
+        <div>
+          <p class="eyebrow"><span class="status-dot"></span> EXPERIENCE &amp; BACKGROUND</p>
+          <h1>Jared Thomson<span class="accent">.</span></h1>
+          <p class="resume-role">Systems Engineering · Cloud Infrastructure · Platform Automation</p>
+          <p class="resume-contact"><a href="mailto:jaredt37@gmail.com">jaredt37@gmail.com</a><span>·</span><a href="https://www.linkedin.com/in/jaredthomson1987/" target="_blank" rel="noreferrer">LinkedIn</a><span>·</span><a href="https://github.com/jaredt87" target="_blank" rel="noreferrer">GitHub</a></p>
+        </div>
+        <a class="button button-primary print-button" href="javascript:window.print()">Print / Save PDF <span aria-hidden="true">↗</span></a>
+      </div>
+      <section class="resume-section">
+        <h2>Summary<span class="accent">.</span></h2>
+        <p class="resume-summary">Staff Systems Engineer focused on cloud platforms, infrastructure automation, secure access, and cost control. I design and build forward-thinking systems that make infrastructure safer to change and easier to operate, replacing manual work and one-off processes with repeatable platforms.</p>
+      </section>
+      <section class="resume-section">
+        <h2>Selected impact<span class="accent">.</span></h2>
+        <ul class="impact-list">
+          <li>Built an internal database-access platform in Go, designed to replace legacy access workflows, with an estimated licensing-savings opportunity exceeding $100,000 per year; broader production rollout is in progress.</li>
+          <li>Architected and own a monthly patching system that has run reliably for four years and saves an estimated week of work for a five-engineer team each month.</li>
+          <li>Serve as the Cloudflare SME during a transition toward a common front door for company traffic, enabling teams to own Workers and routing workflows.</li>
+          <li>Help improve infrastructure supporting revenue-generating services, including roughly 300 legacy static servers, while evaluating migration paths toward Kubernetes.</li>
+        </ul>
+      </section>
+      <section class="resume-section">
+        <h2>Experience<span class="accent">.</span></h2>
+        <article class="resume-job">
+          <div class="job-meta"><span>DEC 2020 — PRESENT</span><span class="job-location">BambooHR</span></div>
+          <h3>Staff Systems Engineer</h3>
+          <ul>
+            <li><strong>Infrastructure strategy and technical leadership:</strong> Help guide the evolution of infrastructure supporting revenue-generating business services, including roughly 300 legacy static servers. Work with engineers and stakeholders to redesign systems, improve operations, and evaluate migration paths toward Kubernetes. Provide day-to-day technical guidance and help the team make sound engineering decisions.</li>
+            <li><strong>Secure access platform:</strong> Built an internal database-access platform from the ground up in Go using AWS SDKs. It is used by the infrastructure team and some developers, with broader production rollout in progress. Designed to replace legacy SSH, bastion, and third-party access workflows, it incorporates AWS Systems Manager, IAM, and Okta SSO, with database access, role-based permissions, and auditing. Set up GoReleaser builds and a Homebrew tap to simplify distribution. The planned replacement has an estimated licensing-savings opportunity exceeding $100,000 per year.</li>
+            <li><strong>Reliable patching and image maintenance:</strong> Architected and own the Semaphore and Ansible system that has run monthly patching reliably for four years. It coordinates maintenance tasks and Aptly snapshots, includes RDS coordination, and handles Auto Scaling Group AMI patching. Based on the team's estimate, it saves roughly one week of work for the five-engineer team each month.</li>
+            <li><strong>Cloudflare architecture and enablement:</strong> Serve as the Cloudflare SME during an ongoing transition toward Cloudflare as a common front door for company traffic. Created Cloudflare Load Balancer routing and supported Workers-based paths for APIs and the marketing application. Help teams set up repositories and Wrangler workflows so they can deploy and own Workers independently.</li>
+            <li><strong>Cost investigation and mitigation:</strong> Investigated a multi-AZ traffic change associated with an approximately $600-per-day cost increase and helped the team work out how to address it. Continue investigating infrastructure cost anomalies and identifying practical fixes.</li>
+            <li><strong>Operational engineering:</strong> Improve Auto Scaling Group image-build pipelines and use Grafana, ELK, Loggly, and Datadog for monitoring and troubleshooting. Promote reusable patterns, mentor engineers, and provide direct, constructive feedback.</li>
+          </ul>
+        </article>
+        <article class="resume-job">
+          <div class="job-meta"><span>MAR 2020 — NOV 2020</span><span class="job-location">O.C. Tanner</span></div>
+          <h3>Software Engineer in Test</h3>
+          <ul><li>Built and maintained API and UI test automation using Ruby and Capybara for applications backed by GraphQL, Kafka, and PostgreSQL.</li><li>Worked with a 5–6 developer Scrum team to align test coverage with feature work and code changes.</li><li>Used Bamboo, Docker, and Puppet Bolt to support repeatable development and test workflows.</li></ul>
+        </article>
+        <article class="resume-job">
+          <div class="job-meta"><span>MAY 2019 — MAR 2020</span><span class="job-location">Solutionreach, Inc.</span></div>
+          <h3>Software Development Engineer in Test</h3>
+          <ul><li>Built UI test automation using Java and Selenium, working with developers to keep coverage aligned with product changes.</li><li>Supported build and test workflows using Bamboo, Docker, Git, and PostgreSQL.</li></ul>
+        </article>
+        <article class="resume-job">
+          <div class="job-meta"><span>SEP 2016 — MAY 2019</span><span class="job-location">3M</span></div>
+          <h3>DevOps Engineer</h3>
+          <ul><li>Supported an environment of nearly 3,000 virtual machines running on Hyper-V and vSphere.</li><li>Built software installation and configuration automation using Python, PowerShell, and AngularJS.</li><li>Helped shape automation architecture for Health Information Systems software and worked across development and QA teams to improve deployment consistency and troubleshoot issues.</li></ul>
+        </article>
+        <article class="resume-job">
+          <div class="job-meta"><span>JAN 2016 — SEP 2016</span><span class="job-location">Zions Bancorporation</span></div>
+          <h3>Business Systems Analyst</h3>
+          <ul><li>Supported production, staging, test, and disaster-recovery environments; coordinated requirements, releases, change requests, and post-change validation.</li><li>Investigated application issues and worked with technical teams and vendors to resolve incidents.</li></ul>
+        </article>
+        <article class="resume-job">
+          <div class="job-meta"><span>MAY 2015 — JAN 2016</span><span class="job-location">Zions Bancorporation</span></div>
+          <h3>Technical Support Specialist</h3>
+          <ul><li>Supported local and remote staff across Windows, Mac, mobile devices, networking, Citrix XenApp, and Active Directory.</li><li>Diagnosed user issues, explained solutions clearly, and identified opportunities to improve support.</li></ul>
+        </article>
+      </section>
+      <section class="resume-section">
+        <h2>Selected projects<span class="accent">.</span></h2>
+        <div class="resume-project"><h3><a href="https://github.com/jaredt87/ackOS" target="_blank" rel="noreferrer">ackOS ↗</a></h3><p>Building a Go-based control kernel that separates authorization, execution, verification, recovery, and state commitment. The goal is to make automated changes safer by checking that the state being changed still matches the state that was authorized.</p></div>
+        <div class="resume-project"><h3>Wingman</h3><p>Building an AI engineering partner that works with team context and established workflows. Integrating it with ackOS keeps the AI's ability to propose infrastructure changes separate from the system that authorizes, executes, and verifies those changes.</p></div>
+      </section>
+      <section class="resume-section">
+        <h2>Skills<span class="accent">.</span></h2>
+        <p class="skills-copy">AWS, GCP, Cloudflare Workers, Linux, networking, IAM, EC2, S3, RDS, ECS, EKS, Redis, Terraform, Puppet, Ansible, Semaphore, Docker, Kubernetes, Go, Python, Ruby, Java, PowerShell, Bash, GitHub Actions, CircleCI, Bamboo, Grafana, Prometheus, ELK, Datadog, PostgreSQL, MSSQL, MongoDB, GraphQL, Kafka, Selenium, Capybara.</p>
+      </section>
+      <section class="resume-section">
+        <h2>Education<span class="accent">.</span></h2>
+        <div class="education-row"><div><h3>University of Phoenix</h3><p>B.S. Information Technology</p></div><span>2019</span></div>
+        <p class="education-detail">Advanced Software Developer Certificate, 2019</p>
+      </section>
+      <div class="resume-bottom"><a class="text-link" href="index.html">← Back to portfolio</a><a class="text-link" href="mailto:jaredt37@gmail.com">Contact Jared ↗</a></div>
+    </main>
+    <footer class="site-footer"><a class="wordmark" href="index.html"><span class="wordmark-mark">JT</span><span>Jared Thomson</span></a><p>Systems that are safer to change.</p><div class="footer-links"><a href="https://github.com/jaredt87" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/jaredthomson1987/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="mailto:jaredt37@gmail.com">Email ↗</a></div></footer>
+  </div>
+</body>
+</html>

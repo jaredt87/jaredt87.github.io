@@ -10,7 +10,7 @@ Personal portfolio for my work across systems engineering, cloud infrastructure,
 
 - **[ackOS](https://github.com/jaredt87/ackOS)** — A safety-oriented control kernel for autonomous state transitions.
 - **Wingman** — An evolving AI engineering partner concept built around team context, established workflows, and governed execution.
-- **Secure database access** — An internal Go platform using AWS Systems Manager, IAM, and Okta SSO.
+- **Patching automation** — A long-running monthly maintenance system built with Semaphore and Ansible.
 
 ## Implementation
 
